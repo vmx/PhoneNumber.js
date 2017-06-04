@@ -4,7 +4,7 @@ all: PhoneNumberMetadata.js
 	python xml2meta.py $< > $@
 
 PhoneNumberMetadata.xml:
-	curl https://raw.githubusercontent.com/googlei18n/libphonenumber/master/resources/PhoneNumberMetadata.xml > $@
+	curl https://raw.githubusercontent.com/googlei18n/libphonenumber/v8.4.1/resources/PhoneNumberMetadata.xml > $@
 
 clean:
 	rm -f PhoneNumberMetadata.xml *~

@@ -1,5 +1,10 @@
 # PhoneNumber.js
 
+*Warning*: This version needs the metadata from libphonenumber < 8.4.2 as the XML
+format changed. For more information see the
+[v8.4.2 Release Notes](https://github.com/googlei18n/libphonenumber/releases/tag/v8.4.2)
+and the
+[original announcement](https://groups.google.com/d/msg/libphonenumber-discuss/75TOpTFVi08/dPDiBBuyDQAJ).
 
 PhoneNumber.js is a JavaScript library to verify and format phone numbers.
 It is similar in purpose to Google's libphonenumber library, with the main difference
